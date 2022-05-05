@@ -18,10 +18,10 @@
 8. ALU
 9. D Flip Flop with synchronous reset
 10. D Flip Flop with asynchronous reset
-11. Sequence Detector using Mealy machine (1101,Non-Overlapping).
-12.	Sequence Detector using Moore machine (1101,Non-Overlapping).
-13.	Sequence Detector using Mealy machine (1101, Overlapping).
-14.	Sequence Detector using Moore machine (1101,Overlapping).
+11. Sequence Detector using Mealy machine (1101,Non-Overlapping)
+12.	Sequence Detector using Moore machine (1101,Non-Overlapping)
+13.	Sequence Detector using Mealy machine (1101, Overlapping)
+14.	Sequence Detector using Moore machine (1101,Overlapping)
 15.	Count the Number of 1s
 16.	Binary to Gray Conversion
 17.	Up Down Counter
