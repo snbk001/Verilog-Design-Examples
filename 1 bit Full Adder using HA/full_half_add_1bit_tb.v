@@ -1,15 +1,15 @@
-module full_adder_1bit_tb  ;
-   reg a, b, cin           ;  //register declaration for input signals a & b
-   wire sum, carry	      ;  //wire declaration for nets
-   reg new_sum, new_carry  ;  //register declaration for verification of sum and carry
+module full_half_add_1bit_tb  ;
+   reg a, b, cin              ;  //register declaration for input signals a & b
+   wire sum, carry	         ;  //wire declaration for nets
+   reg new_sum, new_carry     ;  //register declaration for verification of sum and carry
 
-full_adder_1bit dut(
-                    .i_a(a)           ,		//input
-                    .i_b(b)           ,		//input
-                    .i_cin(cin)       ,      //input
-                    .o_sum(sum)       ,		//output 
-                    .o_carry(carry)	         //output
-                    );
+full_half_add_1bit dut(
+                       .i_a(a)           ,		//input
+                       .i_b(b)           ,		//input
+                       .i_cin(cin)       ,      //input
+                       .o_sum(sum)       ,		//output 
+                       .o_carry(carry)	         //output
+                       );
 
 initial begin 
    repeat(100)
