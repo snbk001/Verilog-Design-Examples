@@ -10,7 +10,10 @@ module alu(
            out          //output
            )         ;
 
-input [3:0]a, b                                 ;
+
+
+
+input [3:0]a, b;
 input [1:0] select                              ;
 output reg [3:0]out                             ;
 output reg zero, carry, sign, parity, overflow  ;
